@@ -1,10 +1,22 @@
-# Hello Arc Overview
+# Calicocloud configuration sample for Azure Arc enabled Kubernetes 
 
-This container image can be deployed on a Kubernetes cluster. When accessed via a web browser on port 8080, it will display:
+This repository contains sample Kubernetes manifest files for calico networkpolicy that can be deployed using GitOps to an Azure Arc enabled Kubernetes cluster.
 
-* "Hello World" message
-* Kubernetes pod name
-* Node os information
+## Contents
+
+| File/folder       | Description                                |
+|-------------------|--------------------------------------------|
+| `README.md`       | This README file. |
+| `cluster-apps`    | Contains an example application that should be deployed to every cluster. |
+| `namespaces`      | Contains three namespace resources to provision on an attached cluster. |
+
+| `CODE_OF_CONDUCT.md` | Microsoft code of conduct. |
+| `LICENSE`         | The license for the sample. |
+
+## Prerequisites
+
+One or more Kubernetes clusters are [connected to Azure Arc](https://docs.microsoft.com/en-in/azure/azure-arc/kubernetes/connect-cluster) using the `connectedk8s` Azure CLI extension.
+
 
 It is designed for demoing Azure Arc for Kubernetes GitOps flow included in the ["Azure Arc Jumpstart GitHub repository"](https://github.com/likamrat/azure_arc/) but can really be used for other demo purposes easily. 
 
