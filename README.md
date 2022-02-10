@@ -9,9 +9,9 @@ This repository contains sample Kubernetes manifest files for calico networkpoli
 | `README.md`       | This README file. |
 | `cluster-apps`    | Contains an example application that should be deployed to every cluster. |
 | `namespaces`      | Contains three namespace resources to provision on an attached cluster. |
+| `tiers`           | The license for the sample. |
+| `network-policy`  | The license for the sample. |
 
-| `CODE_OF_CONDUCT.md` | Microsoft code of conduct. |
-| `LICENSE`         | The license for the sample. |
 
 ## Prerequisites
 
