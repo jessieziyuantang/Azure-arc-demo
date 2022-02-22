@@ -8,19 +8,14 @@ This repository contains sample Kubernetes manifest files for calico networkpoli
 |-------------------|--------------------------------------------|
 | `README.md`       | This README file. |
 | `cluster-apps`    | Contains an example application that should be deployed to every cluster. |
-| `namespaces`      | Contains three namespace resources to provision on an attached cluster. |
-| `tiers`           | The license for the sample. |
-| `network-policy`  | The license for the sample. |
+| `namespaces`    | Contains namespace resources to provision on an attached cluster. |
+| `cluster-apps`    | Contains an example application that should be deployed to every cluster. |
 
 
 ## Prerequisites
 
 One or more Kubernetes clusters are [connected to Azure Arc](https://docs.microsoft.com/en-in/azure/azure-arc/kubernetes/connect-cluster) using the `connectedk8s` Azure CLI extension.
 
-
-It is designed for demoing Azure Arc for Kubernetes GitOps flow included in the ["Azure Arc Jumpstart GitHub repository"](https://github.com/likamrat/azure_arc/) but can really be used for other demo purposes easily. 
-
-![](img/hello_arc.png)
 
 ## Credit
 
