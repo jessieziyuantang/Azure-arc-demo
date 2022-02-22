@@ -9,7 +9,7 @@ This repository contains sample Kubernetes manifest files for calico networkpoli
 | `README.md`       | This README file. |
 | `cluster-apps`    | Contains an example application that should be deployed to every cluster. |
 | `namespaces`    | Contains namespace resources to provision on an attached cluster. |
-| `cluster-apps`    | Contains an example application that should be deployed to every cluster. |
+| `cluster-networkpolicy`    | Contains an example networkpolicy that should be deployed to every cluster. |
 
 
 ## Prerequisites
