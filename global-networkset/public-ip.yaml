@@ -1,0 +1,10 @@
+apiVersion: crd.projectcalico.org/v1
+kind: GlobalNetworkSet
+metadata:
+  name: external-log
+  labels:
+    role: log
+spec:
+  nets:
+  - 198.51.100.0/28
+  - 203.0.113.0/24
