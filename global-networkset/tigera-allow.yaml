@@ -1,10 +1,10 @@
 apiVersion: crd.projectcalico.org/v1
 kind: GlobalNetworkSet
 metadata:
-  name: external-ip
+  name: tigera-allow-ip
   labels:
-    role: log
+    role: allow
 spec:
   nets:
-  - 198.51.100.0/28
+  - 8.8.8.8/32
  

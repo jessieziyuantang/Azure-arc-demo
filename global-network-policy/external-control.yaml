@@ -1,7 +1,7 @@
 apiVersion: crd.projectcalico.org/v1
 kind: GlobalNetworkPolicy
 metadata:
-  name: external-log-access
+  name: external-control
 spec:
   selector: all()
   order: 200
@@ -9,12 +9,8 @@ spec:
     - Egress
   egress:
   - action: Allow
-    protocol: UDP
-    source: {}
     destination:
-      ports:
-      - '53'
-  - action: Allow
+      selector: role == "allow"
+  - action: Deny
     destination:
-      selector: role == "log"
- 
+      selector: role == "deny"

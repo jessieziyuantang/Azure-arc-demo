@@ -1,0 +1,9 @@
+apiVersion: crd.projectcalico.org/v1
+kind: GlobalNetworkSet
+metadata:
+  name: tigera-deny-ip
+  labels:
+    role: deny
+spec:
+  nets:
+  - 198.51.100.0/28
