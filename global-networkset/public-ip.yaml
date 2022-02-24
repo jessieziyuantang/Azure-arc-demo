@@ -1,7 +1,7 @@
 apiVersion: crd.projectcalico.org/v1
 kind: GlobalNetworkSet
 metadata:
-  name: external-log
+  name: external-ip
   labels:
     role: log
 spec:

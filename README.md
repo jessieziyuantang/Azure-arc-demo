@@ -17,15 +17,6 @@ This repository contains sample Kubernetes manifest files for calico networkpoli
 One or more Kubernetes clusters are [connected to Azure Arc](https://docs.microsoft.com/en-in/azure/azure-arc/kubernetes/connect-cluster) using the `connectedk8s` Azure CLI extension.
 
 
-## Credit
-
-This repository and the "Hello Arc" application in it were forked from the great work done by Paul Bouwer as part of his ["Hello Kubernetes" GitHub repository](https://github.com/paulbouwer/hello-kubernetes) and all credits for the building blocks goes to him. 
-
-Please refer to the repository for detailed instructions on how to build your on Docker image and deploy it. 
-
-## Docker Hub
-
-The container for this "Hello Arc" application can be found on [Docker Hub](https://hub.docker.com/r/liorkamrat/hello-arc). 
 
 ## Contributing
 

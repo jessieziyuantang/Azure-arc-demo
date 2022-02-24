@@ -5,14 +5,13 @@ metadata:
 spec:
   order: 5
   selector: all()
+  types:
+    - Egress
   egress:
   - action: Allow
     protocol: UDP
     source: {}
     destination:
-      selector: k8s-app == "kube-dns"
-      namespaceSelector: projectcalico.org/name == "kube-system"
-      ports:
-      - '53'
-  types:
-    - Egress
+        services:
+          name: kube-dns
+          namespace: kube-system
