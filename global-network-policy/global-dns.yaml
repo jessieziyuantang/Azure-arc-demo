@@ -12,6 +12,4 @@ spec:
     protocol: UDP
     source: {}
     destination:
-        services:
-          name: kube-dns
-          namespace: kube-system
+      selector: k8s-app == "kube-dns"
