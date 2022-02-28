@@ -12,6 +12,3 @@ spec:
   - action: Allow
     destination:
       selector: role == "allow"
-  - action: Deny
-    destination:
-      selector: role == "deny"
