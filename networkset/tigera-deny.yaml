@@ -4,11 +4,10 @@ metadata:
   name: dev-allow-ip
   namespace: dev
   labels:
-    role: allow
+    role: deny
 spec:
   nets:
   - 8.8.8.8/32
-  - 198.51.100.0/28
-  - 4.4.4.4/32
+  
   
  

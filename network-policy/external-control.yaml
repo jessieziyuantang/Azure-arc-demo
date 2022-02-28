@@ -5,10 +5,9 @@ metadata:
   namespace: dev
 spec:
   selector: all()
-  order: 200
   types:
     - Egress
   egress:
-  - action: Allow
+  - action: Deny
     destination:
-      selector: role == "allow"
+      selector: role == "deny"
