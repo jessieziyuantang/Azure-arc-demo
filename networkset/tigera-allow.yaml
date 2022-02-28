@@ -1,7 +1,8 @@
 apiVersion: crd.projectcalico.org/v1
-kind: GlobalNetworkSet
+kind: NetworkSet
 metadata:
-  name: tigera-allow-ip
+  name: dev-allow-ip
+  namespace: dev
   labels:
     role: allow
 spec:

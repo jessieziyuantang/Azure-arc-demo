@@ -1,7 +1,8 @@
 apiVersion: crd.projectcalico.org/v1
-kind: GlobalNetworkPolicy
+kind: NetworkPolicy
 metadata:
-  name: external-control
+  name: dev-control
+  namespace: dev
 spec:
   selector: all()
   order: 200
