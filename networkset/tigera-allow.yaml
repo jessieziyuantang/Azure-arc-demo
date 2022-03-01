@@ -1,0 +1,13 @@
+apiVersion: crd.projectcalico.org/v1
+kind: NetworkSet
+metadata:
+  name: dev-allow-ip
+  namespace: dev
+  labels:
+    role: allow
+spec:
+  nets:
+  - 8.8.8.8/32
+  
+  
+ 

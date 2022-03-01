@@ -10,4 +10,7 @@ spec:
   egress:
   - action: Deny
     destination:
-      selector: role == "deny"
+      selector: role == "deny" 
+  - action: Allow
+    destination:
+      selector: role == "allow"
