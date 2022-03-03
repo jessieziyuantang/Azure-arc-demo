@@ -7,4 +7,4 @@ metadata:
     role: allow
 spec:
   nets:
-  - 8.8.8.8/32
+  - 51.178.161.32/32
