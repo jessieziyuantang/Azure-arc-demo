@@ -4,6 +4,7 @@ metadata:
   name: default.dev-control
   namespace: dev
 spec:
+  order: 100
   selector: app == "netshoot"
   types:
     - Egress
