@@ -1,7 +1,7 @@
 apiVersion: crd.projectcalico.org/v1
 kind: GlobalNetworkPolicy
 metadata:
-  name: default-deny
+  name: default.default-deny
 spec:
   order: 1000
   selector: projectcalico.org/namespace != "kube-system"

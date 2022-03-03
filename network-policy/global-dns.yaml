@@ -1,7 +1,7 @@
 apiVersion: crd.projectcalico.org/v1
 kind: GlobalNetworkPolicy
 metadata:
-  name: allow-kube-dns
+  name: default.allow-kube-dns
 spec:
   order: 5
   selector: all()
